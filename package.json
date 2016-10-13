@@ -2,7 +2,7 @@
   "name": "gulp-favicon",
   "version": "1.0.0",
   "description": "Tâche gulp pour générer le favicon",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "test": "test"
   },
