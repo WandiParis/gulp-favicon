@@ -83,7 +83,7 @@ var injectMarkup = function injectMarkup() {
     var htmlCode = faviconConfig.favicon.html_code;
 
     var task = function task() {
-        _gulp2.default.src(templateFiles).pipe(_gulpRealFavicon2.default.injectFaviconMarkups(htmlCode)).pipe(_gulp2.default.dest(templateDest));
+        return _gulp2.default.src(templateFiles).pipe(_gulpRealFavicon2.default.injectFaviconMarkups(htmlCode)).pipe(_gulp2.default.dest(templateDest));
     };
 
     task.displayName = 'favicon-inject-markup';

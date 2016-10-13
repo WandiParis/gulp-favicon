@@ -65,7 +65,7 @@ const injectMarkup = (params = {}) => {
     const htmlCode = faviconConfig.favicon.html_code
 
     const task = () => {
-        gulp.src(templateFiles)
+        return gulp.src(templateFiles)
             .pipe(realFavicon.injectFaviconMarkups(htmlCode))
             .pipe(gulp.dest(templateDest))
     }
