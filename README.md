@@ -15,7 +15,7 @@ Paramètres par défaut :
 ```js
 // gulpfile.babel.js
 
-import * as faviconTasks from gulp-favicon
+import * as faviconTasks from 'gulp-favicon'
 
 export {
     ...faviconTasks
